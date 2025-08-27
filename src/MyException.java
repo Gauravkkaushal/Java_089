@@ -14,14 +14,14 @@ public class MyException {
         z=x/y;
         System.out.println("Exception not Occurs");
     }
-//    catch (ArithmeticException e)
-//    {
-//        System.out.println(e.getMessage());
-//    }
-//    catch (InputMismatchException e)
-//    {
-//        System.out.println(e);
-//    }
+    catch (ArithmeticException e)
+    {
+        System.out.println(e.getMessage());
+    }
+    catch (InputMismatchException e)
+    {
+        System.out.println(e);
+    }
     catch (Exception e){
         System.out.println(e);
     }
