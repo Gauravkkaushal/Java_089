@@ -1,3 +1,5 @@
+package Unit1;
+
 import java.io.DataInputStream;
 import java.util.InputMismatchException;
 import java.util.Scanner;
